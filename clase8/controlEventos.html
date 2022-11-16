@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlador de eventos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Controlador de eventos</h1>
+    <nav>
+        <button 
+            onclick="mostrarTexto('hiciste click')"
+            onmouseover="mostrarTexto('pusiste mouse sobre')"
+            onmouseout="mostrarTexto('quitaste el mouse')"
+            >en HTML</button>
+
+        <button id="boton">en JS</button>
+    </nav>
+    <span id="txt"></span>
+
+    <script src="js/controlEventos.js"></script>
+</body>
+</html>

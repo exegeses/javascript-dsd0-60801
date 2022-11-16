@@ -1,0 +1,31 @@
+#formulario{
+    background-color: #fff;
+    width: 480px;
+    margin: 32px auto;
+    padding: 32px;
+    box-shadow: 0px 0px 5px #ddd;
+    border-radius: 8px;
+}
+    #formulario input{
+        width: 100%;
+        padding: 6px;
+        margin: 6px 0px 6px 0px;
+        border: 1px solid #999;
+        border-radius: 8px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    #formulario button{
+        width: 220px;
+        padding: 6px;
+        background-color: #444;
+        border-radius: 8px;
+        color: #fff; 
+        transition: 300ms;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    #formulario button:hover{
+        background-color: #555;
+    }
+    #errNombre{
+        color: #d00;
+    }
