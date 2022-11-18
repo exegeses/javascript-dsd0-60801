@@ -8,5 +8,14 @@ formulario.addEventListener(
                 function ( evento ){
                     //evitamos envío de formulario
                     evento.preventDefault();
+
+                    //obtenemos dato escrito en el campo
+                    let nombre = campoNombre.value;
+                    if( nombre == null || nombre == '' ){
+                        errNombre.innerText = 'Complete el campo nombre';
+                        return false;
+                    }
+                    //si llegamos hasta acá , ya podemos enviar el form
+                    formulario.submit();
                 }
 )
